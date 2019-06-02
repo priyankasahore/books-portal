@@ -1,0 +1,68 @@
+<html>
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <style>
+      
+    .userregbtn{background-color:#2acfb1;}
+    
+  
+   </style>
+</head>
+<body>
+
+
+<div class="container">
+<div class="row back">
+<h1>Register Here</h1>
+ <div class="col-md-8">
+<div class="form-group">
+    <label for="uname">Username</label>
+    <input type="text" class="form-control" ng-model="uname">
+  </div>
+  <div class="form-group">
+    <label for="umail">Email</label>
+    <input type="email" class="form-control" ng-model="umail">
+  </div>
+  <div class="form-group">
+    <label for="upassword">Password:</label>
+    <input type="password" class="form-control" ng-model="upassword">
+  </div>
+  
+  <div class="form-group">
+    <label for="confirmpassword">Confirm Password:</label>
+    <input type="password" class="form-control" ng-model="confirmpassword">
+  </div>
+  
+  <div class="form-group">
+   <label>Select Gender:</label>
+   <input type="radio" ng-model="gender" value="male" checked /> Male
+  <input type="radio" ng-model="gender" value="female"> Female<br>
+   </div>
+ 
+   <div class="form-group">
+   <label for="city">Enter City</label>
+   <input type="text" class="form-control" ng-model="selcity">
+   </div>
+   <div class="form-group">
+   <label for="pno">Phone No</label>
+   <input type="text" class="form-control" ng-model="pno">
+   </div>
+   </div>
+
+ 
+   <!--<div class="col-md-4">
+     <div class="thumbnail">
+			   <img src="assests/images/pic.jpg">
+			   </div>
+			   </div>-->
+   
+   <div class="col-md-offset-5 col-md-2">
+  <button type="button" class="btn btn-md userregbtn">Submit</button>
+  </div>
+</form>
+</div>
+</div>
+</body>
+</html>

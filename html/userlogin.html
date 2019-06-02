@@ -1,0 +1,39 @@
+<html>
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <style>
+      
+	  .margin{margin-top:10px;}
+	  .color{background:#FB6E9D;
+	  .fontlog{font-size:19px;}
+	  
+	
+   </style>
+</head>
+<body>
+    <div class="container">
+	     
+	    <div class="row">
+	     <div class="col-md-offset-2 col-md-8"> 
+		  <form >
+			<h1 class="text-center"><b>LOGIN!!!<b></h1>
+			<hr/>
+			<div class="form-group">
+			    <input type="text" class="form-control" placeholder="username"  ng-model="usrnm"   name="username" required="required"/> 
+		         
+		     </div>
+			 <div class="form-group">
+			    <input type="password" class="form-control" placeholder="password" ng-model="usrpwd"    name="password" required="required"/> 
+		     </div>
+			 <div class="form-group">
+				<input type="submit" class="btn btn-block color" value="login" ng-click="validatelogin()"/>
+			 </div>
+		 </form>				
+				<div class="hint-text small"><a href="#">Forgot Your Password?</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Not a member <a href="#!/register">Sign Up</a></div>
+			  </div>
+		     </div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<h2>Home Page</h2>
+
+<ul>
+	{{#each data}}
+		<li>{{this}}</li>
+	{{/each}}
+</ul>
+
+{{#if active}}
+	<p>I am Active</p>
+{{else}}
+	<p>I am not Active</p>
+{{/if}}

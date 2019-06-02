@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>delete category</title>title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+
+.border{border:2px solid white;box-shadow:2px 2px 2px 2px #cccccc;}
+.delcategorybtn{background-color:#fb3c7a;}
+</style>
+
+</head>
+<body>
+<br/>
+<div class="container">
+<div class="row">
+<form>
+ <div class="col-md-12 border">
+ <div class="col-md-offset-2 col-md-4">
+<div class="form-group">
+    <label for="b_category">Enter category</label>
+    <input type="text" class="form-control" ng-model="b_category">
+  </div>
+  
+  <div class="form-group">
+    <label>Date</label>
+    <input type="date" class="form-control" ng-model="b_author">
+  </div>
+   
+  
+   <div class="col-md-offset-5 col-md-2">
+	<button type="button" class="btn btn-md delcategorybtn" ng-model="deletecategory" ng-click="delcategoryy()">Delete Category</button>
+   </div>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+  <style>
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 24px;
+  background: #fb3c7a;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.icon1 {
+  padding: 25px;
+  background: white;
+  color: black;
+  min-width: 70px;
+   min-height: 70px;
+  text-align: center;
+  border:1px solid black;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #fb3c7a;;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color:#fb3c7a;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.position{position:relative;margin-top:80px;}
+.cont{font-size:60px;padding-top:10px;}
+</style>
+</head>
+<body>
+   <div class="container">
+     <h1 class="cont"><b>CONTACT US...</b></h1>
+     <div class="row">
+	   <div class="col-md-6">
+				<form>
+				 
+				  <div class="input-container">
+					<i class="fa fa-user icon position"></i>
+					<input class="input-field position" type="text" placeholder="Username" name="usrname" style="height:60px;">
+				  </div>
+
+				  <div class="input-container">
+					<i class="fa fa-envelope icon"></i>
+					<input class="input-field" type="text" placeholder="Email" name="email" style="height:60px;">
+				  </div>
+
+				  <div class="input-container">
+					<i class="fa fa-phone icon"></i>
+					<input class="input-field" type="phone" placeholder="Phone Number" name="phn" style="height:60px;">
+				  </div>
+				  
+				   <div class="input-container">
+					<i class="fa fa-pen-nib  icon"></i>
+					<input class="input-field" type="text" placeholder="Message" name="msg" style="height:60px;">
+				  </div>
+
+				  <button type="button" class="btn" style="height:60px;">submit</button>
+				</form>
+	   </div>
+	   
+	  </div>	
+	</div>	
+</body>
+</html>
