@@ -13,6 +13,8 @@ app.use('/static/home', staticRoutes);
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
+// Added ANother line
+
 app.listen(3000, () => {
 	console.log("Server started at", 3000);
 });
