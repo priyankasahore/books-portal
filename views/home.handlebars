@@ -1,13 +1,11 @@
 <h2>Home Page</h2>
 
-<ul>
-	{{#each data}}
-		<li>{{this}}</li>
+<table class="table">
+	{{#each books}}
+		<tr>
+			<td>{{this.name}}</td>
+			<td>{{this.author}}</td>
+			<td>{{this.copiesSold}}</td>
+		<tr/>
 	{{/each}}
-</ul>
-
-{{#if active}}
-	<p>I am Active</p>
-{{else}}
-	<p>I am not Active</p>
-{{/if}}
+</table>
